@@ -1,1 +1,71 @@
+body {
+	margin: 0;
+	padding: 0;
+}
 
+header {
+	background-color: #151515;
+	padding-top: 50px; 
+	height: 500px;
+}
+header i {
+	color: white;
+	font-size: 1.6em;
+}
+#search_icon {
+	font-size: 1em;
+}
+header ul {
+	list-style-type: none;
+	margin: 0;
+	display: inline;
+}
+header > ul > li {
+	display: inline;
+	padding: 20px 8px;
+}		
+header h1 {
+	color: white;
+	font-size: 2em;
+	display: inline;
+	margin-left: 300px;
+}	
+header p {
+	color: white;
+	display: inline;
+	margin-left: 300px;
+}
+			
+header menu a {
+	color: rgba(255,255,255,.6);
+	padding-right: 30px;
+	text-decoration: none;
+}
+header menu li {
+	display: inline;
+	position: relative;
+	float: left;
+}
+.submenu a {
+	color: rgba(255,255,255,.6);
+	display: block;
+	text-decoration: none;
+}
+header menu {
+	padding-top: 0;
+	margin-top: 40px;
+	margin-left: 350px;
+}
+.submenu {
+	display: none;
+	position: absolute;
+	background: black;
+	margin-top: 20px;
+}
+header menu li:hover .submenu {
+	display: block;
+	transition: all 3s ease-in;
+}
+menu a:hover, .submenu a:hover {
+	color: white;
+}
