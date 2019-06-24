@@ -8,6 +8,9 @@ header {
 	padding-top: 50px; 
 	height: 500px;
 }
+header a {
+	text-decoration: none;
+}
 header i {
 	color: white;
 	font-size: 1.6em;
@@ -26,9 +29,9 @@ header > ul > li {
 }		
 header h1 {
 	color: white;
-	font-size: 2em;
+	font-size: 3em;
 	display: inline;
-	margin-left: 300px;
+	margin-left: 320px;
 }	
 header p {
 	color: white;
@@ -39,7 +42,8 @@ header p {
 header menu a {
 	color: rgba(255,255,255,.6);
 	padding-right: 30px;
-	text-decoration: none;
+	display: block;
+	padding-bottom: 10px;
 }
 header menu li {
 	display: inline;
@@ -49,23 +53,39 @@ header menu li {
 .submenu a {
 	color: rgba(255,255,255,.6);
 	display: block;
-	text-decoration: none;
+	padding: 7px;
 }
 header menu {
-	padding-top: 0;
-	margin-top: 40px;
-	margin-left: 350px;
+	display: table;
+	margin: 40px auto 0 auto;
 }
 .submenu {
 	display: none;
 	position: absolute;
 	background: black;
-	margin-top: 20px;
 }
 header menu li:hover .submenu {
 	display: block;
-	transition: all 3s ease-in;
+	animation: fade 2s;
 }
 menu a:hover, .submenu a:hover {
 	color: white;
+}
+
+
+@keyframes fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.header_container {
+	padding: 20px;
+}
+.header_content {
+
+
 }
