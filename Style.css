@@ -5,8 +5,8 @@ body {
 
 header {
 	background-color: #151515;
-	padding-top: 50px; 
-	height: 500px;
+	padding-top: 50px;
+	height: 845px;
 }
 header a {
 	text-decoration: none;
@@ -88,4 +88,68 @@ menu a:hover, .submenu a:hover {
 .header_content {
 
 
+}
+.big {
+	background-image: url("http://hdwpro.com/wp-content/uploads/2016/12/Cool-Dark-Image.jpg");
+	float: left;
+	width: 65%;
+	height: 700px;
+	box-sizing: border-box;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.big > a {
+	display: block;
+	background-color: #01aef0;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px;
+	margin-left: 100px;
+	margin-top: 300px;
+	width: 50px;
+}
+.big > h1 {
+	display: block;
+	margin-left: 100px;
+	width: 500px;
+	color: white;
+
+}
+.big > p {
+margin-left: 100px;
+}
+.small {
+	background-image: url("http://hdwpro.com/wp-content/uploads/2016/12/Cool-Dark-Image.jpg");
+	float: right;
+	width: 35%;
+	box-sizing: border-box;
+	height: 350px;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.small > a {
+	display: block;
+	background-color: #679a23;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px;
+	margin-left: 50px;
+	margin-top: 160px;
+	width: 130px;
+}
+.small > h3 {
+	display: block;
+	margin-left: 50px;
+	width: 500px;
+	color: white;
+
+}
+.small > p {
+margin-left: 50px;
+}
+.big h1:hover, .small h3:hover {
+	text-decoration: underline;
 }
