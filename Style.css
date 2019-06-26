@@ -153,3 +153,37 @@ margin-left: 50px;
 .big h1:hover, .small h3:hover {
 	text-decoration: underline;
 }
+
+
+
+/*main section*/
+section {
+	background-color: #f2f2f2;
+	padding: 100px;
+}
+
+.blogPost {
+	background-color: #fff;
+	float: left;
+	box-sizing: border-box;
+	width: 30%;
+	box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.05);
+	position: relative;
+
+}
+.blogPost img {
+	width: 100%;
+
+}
+.blogPost h1, .blogPost p {
+	padding: 20px;
+	line-height: 1.6em;
+} 
+.middle {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.justText {
+	text-align: center;
+	padding: 50px;
+}
